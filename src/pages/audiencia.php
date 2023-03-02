@@ -147,12 +147,12 @@
         <section class="conteiner-corpo">
             <h3>Mérito da Audiência</h3>
             <form>
-                <div class="conteiner-input">
+                <div>
                     <p class="negrito">É cabível a transação penal?</p>
-                    <input type="radio" id="ctsim" name="cabimento" value="Sim">
-                    <label for="ctsim">Sim</label>
-                    <input type="radio" id="ctnao" name="cabimento" value="Não">
-                    <label for="ctnao">Não</label>
+                    <input type="radio" id="cabe-sim" name="cabimento-tp" value="Sim">
+                    <label for="cabe-sim">Sim</label>
+                    <input type="radio" id="cabe-nao" name="cabimento-tp" value="Não">
+                    <label for="cabe-nao">Não</label>
                 </div>
 
                 <div>
@@ -167,36 +167,36 @@
 
                 <div>
                     <p class="negrito">Afastamento dos estádios</p>
-                    <!-- <input type="radio" id="afastamento" name="proposta" value="Afastamento">
-                    <label for="afastamento">Afastamento</label>
-                    <input type="radio" id="pp" name="proposta" value="Prestação Pecuniária">
-                    <label for="pp">Prestação Pecuniária</label>
-                    <input type="radio" id="psc" name="proposta" value="Prestação de Serviços à Comunidade">
-                    <label for="psc">Prestação de Serviços à Comunidade</label> -->
-                </div>
-
-                <div>
-                    <p class="negrito">Prestação pecuniária</p>
-                    <label for="valorpp">Valor: R$ </label>
-                    <input type="text" id="valorpp" name="valorpp" placeholder="606,00 (exemplo)">
-                    <label for="prazopp">Prazo (em dias): </label>
-                    <input type="text" id="prazopp" name="prazopp" placeholder="60 (exemplo)">
-                    <label>dias</label>
-                    <label for="beneficiariopp">Beneficiário: </label>
-                    <input type="text" id="beneficiariopp" name="beneficiariopp" placeholder="FUMCAD (exemplo)">
+                    <label for="time-afastamento">Time: </label>
+                    <input type="text" id="time-afastamento" name="time-afastamento" placeholder="São Paulo (exemplo)">
+                    <label for="prazo-afastamento">Prazo (em meses): </label>
+                    <input type="text" id="prazo-afastamento" name="prazo-afastamento" placeholder="60 (exemplo)">
                 </div>
 
                 <div>
                     <p class="negrito">Prestação de Serviços à Comunidade</p>
-                    <label for="horaspsc">Quantidade de horas a cumprir: </label>
-                    <input type="text" id="horaspsc" name="horaspsc" placeholder="28 (exemplo)">
-                    <label>horas</label>
-                    <label for="prazopsc">Prazo para cumprimento: </label>
-                    <input type="text" id="prazopsc" name="prazopsc" placeholder="30 (exemplo)">
-                    <label>dias</label>
-                    <label for="beneficiariopp">Beneficiário: </label>
-                    <input type="text" id="beneficiariopp" name="beneficiariopp" placeholder="FUMCAD">
+                    <label for="horas-psc">Quantidade de horas a cumprir: </label>
+                    <input type="text" id="horas-psc" name="horas-psc" placeholder="28 (exemplo)">
+                    <label for="prazopsc">Prazo para cumprimento (em dias): </label>
+                    <input type="text" id="prazo-psc" name="prazo-psc" placeholder="30 (exemplo)">
                 </div>
+
+                <div>
+                    <p class="negrito">Prestação pecuniária</p>
+                    <label for="valor-pp">Valor: R$ </label>
+                    <input type="text" id="valor-pp" name="valor-pp" placeholder="606,00 (exemplo)">
+                    <label for="prazo-pp">Prazo (em dias): </label>
+                    <input type="text" id="prazo-pp" name="prazo-pp" placeholder="60 (exemplo)">
+                </div>
+                
+                <div>
+                    <p class="negrito">Manifestação do Réu:</p>
+                    <input type="radio" id="aceita-sim" name="aceitacao" value="Aceita">
+                    <label for="aceita-sim">Não aceita</label>
+                    <input type="radio" id="aceita-nao" name="aceitacao" value="Não aceita">
+                    <label for="aceita-nao">Não aceita</label>
+                </div>
+
             </form>
         </section>
 
