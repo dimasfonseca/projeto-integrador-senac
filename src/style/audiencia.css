@@ -87,6 +87,18 @@ h2 {
     padding: 10px 10px;
 }
 
+.conteiner-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.conteiner-coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 h3 {
     text-align: center;
     padding: 10px;

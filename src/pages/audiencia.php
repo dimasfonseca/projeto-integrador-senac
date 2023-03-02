@@ -147,7 +147,7 @@
         <section class="conteiner-corpo">
             <h3>Mérito da Audiência</h3>
             <form>
-                <div>
+                <div class="conteiner-linha">
                     <p class="negrito">É cabível a transação penal?</p>
                     <input type="radio" id="cabe-sim" name="cabimento-tp" value="Sim">
                     <label for="cabe-sim">Sim</label>
@@ -157,42 +157,62 @@
 
                 <div>
                     <p class="negrito">Proposta formulada pelo Ministério Público:</p>
-                    <input type="radio" id="afastamento" name="proposta" value="Afastamento">
-                    <label for="afastamento">Afastamento dos estádios</label>
-                    <input type="radio" id="pp" name="proposta" value="Prestação Pecuniária">
-                    <label for="pp">Prestação Pecuniária</label>
-                    <input type="radio" id="psc" name="proposta" value="Prestação de Serviços à Comunidade">
-                    <label for="psc">Prestação de Serviços à Comunidade</label>
+                    <div class="conteiner-coluna">
+                        <input type="radio" id="afastamento" name="proposta" value="Afastamento">
+                        <label for="afastamento">Afastamento dos estádios</label>
+                        <input type="radio" id="pp" name="proposta" value="Prestação Pecuniária">
+                        <label for="pp">Prestação Pecuniária</label>
+                        <input type="radio" id="psc" name="proposta" value="Prestação de Serviços à Comunidade">
+                        <label for="psc">Prestação de Serviços à Comunidade</label>
+                    </div>
                 </div>
 
-                <div>
+                <div class="conteiner-coluna">
                     <p class="negrito">Afastamento dos estádios</p>
-                    <label for="time-afastamento">Time: </label>
-                    <input type="text" id="time-afastamento" name="time-afastamento" placeholder="São Paulo (exemplo)">
-                    <label for="prazo-afastamento">Prazo (em meses): </label>
-                    <input type="text" id="prazo-afastamento" name="prazo-afastamento" placeholder="60 (exemplo)">
+                    <div class="conteiner-coluna">
+                        <div class="conteiner-linha">
+                            <label for="time-afastamento">Time: </label>
+                            <input type="text" id="time-afastamento" name="time-afastamento" placeholder="São Paulo (exemplo)">
+                        </div>   
+                        <div class="conteiner-linha">
+                            <label for="prazo-afastamento">Prazo (em meses): </label>
+                            <input type="text" id="prazo-afastamento" name="prazo-afastamento" placeholder="60 (exemplo)">
+                        </div>
+                    </div>
                 </div>
 
-                <div>
+                <div class="conteiner-coluna">
                     <p class="negrito">Prestação de Serviços à Comunidade</p>
-                    <label for="horas-psc">Quantidade de horas a cumprir: </label>
-                    <input type="text" id="horas-psc" name="horas-psc" placeholder="28 (exemplo)">
-                    <label for="prazopsc">Prazo para cumprimento (em dias): </label>
-                    <input type="text" id="prazo-psc" name="prazo-psc" placeholder="30 (exemplo)">
+                    <div class="conteiner-coluna">
+                        <div class="conteiner-linha">
+                            <label for="horas-psc">Quantidade de horas a cumprir: </label>
+                            <input type="text" id="horas-psc" name="horas-psc" placeholder="28 (exemplo)">
+                        </div>
+                        <div class="conteiner-linha">
+                            <label for="prazopsc">Prazo para cumprimento (em dias): </label>
+                            <input type="text" id="prazo-psc" name="prazo-psc" placeholder="30 (exemplo)">
+                        </div>
+                    </div>  
                 </div>
 
-                <div>
+                <div class="conteiner-coluna">
                     <p class="negrito">Prestação pecuniária</p>
-                    <label for="valor-pp">Valor: R$ </label>
-                    <input type="text" id="valor-pp" name="valor-pp" placeholder="606,00 (exemplo)">
-                    <label for="prazo-pp">Prazo (em dias): </label>
-                    <input type="text" id="prazo-pp" name="prazo-pp" placeholder="60 (exemplo)">
+                    <div class="conteiner-coluna">
+                        <div class="conteiner-linha">
+                            <label for="valor-pp">Valor: R$ </label>
+                            <input type="text" id="valor-pp" name="valor-pp" placeholder="606,00 (exemplo)">
+                        </div>
+                        <div class="conteiner-linha">
+                            <label for="prazo-pp">Prazo (em dias): </label>
+                            <input type="text" id="prazo-pp" name="prazo-pp" placeholder="60 (exemplo)">
+                        </div>
+                    </div>
                 </div>
                 
-                <div>
+                <div class="conteiner-linha">
                     <p class="negrito">Manifestação do Réu:</p>
                     <input type="radio" id="aceita-sim" name="aceitacao" value="Aceita">
-                    <label for="aceita-sim">Não aceita</label>
+                    <label for="aceita-sim">Aceita</label>
                     <input type="radio" id="aceita-nao" name="aceitacao" value="Não aceita">
                     <label for="aceita-nao">Não aceita</label>
                 </div>
