@@ -41,9 +41,8 @@
                     <label for="delegacia" class="negrito">Delegacia de Polícia:</label>
                     <input list="delegacias" name="delegacia" id="delegacia">
                     <datalist id="delegacias">
-                        <option value="5a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva">
-                        <option value="6a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva">
-                        <option value="Outra">
+                        <option value="5a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva"></option>
+                        <option value="6a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva"></option>
                     </datalist>
                 </div>
                 <div class="conteiner-input">
@@ -155,15 +154,21 @@
                     <label for="cabe-nao">Não</label>
                 </div>
 
-                <div>
+                <div class="conteiner-linha">
                     <p class="negrito">Proposta formulada pelo Ministério Público:</p>
                     <div class="conteiner-coluna">
-                        <input type="radio" id="afastamento" name="proposta" value="Afastamento">
-                        <label for="afastamento">Afastamento dos estádios</label>
-                        <input type="radio" id="pp" name="proposta" value="Prestação Pecuniária">
-                        <label for="pp">Prestação Pecuniária</label>
-                        <input type="radio" id="psc" name="proposta" value="Prestação de Serviços à Comunidade">
-                        <label for="psc">Prestação de Serviços à Comunidade</label>
+                        <div class="conteiner-linha">
+                            <input type="radio" id="afastamento" name="proposta" value="Afastamento">
+                            <label for="afastamento">Afastamento dos estádios</label>
+                        </div>
+                        <div class="conteiner-linha">
+                            <input type="radio" id="pp" name="proposta" value="Prestação Pecuniária">
+                            <label for="pp">Prestação Pecuniária</label>
+                        </div>
+                        <div class="conteiner-linha">    
+                            <input type="radio" id="psc" name="proposta" value="Prestação de Serviços à Comunidade">
+                            <label for="psc">Prestação de Serviços à Comunidade</label>
+                        </div>                    
                     </div>
                 </div>
 
