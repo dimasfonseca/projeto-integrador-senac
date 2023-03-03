@@ -41,9 +41,8 @@
                     <label for="delegacia" class="negrito">Delegacia de Polícia:</label>
                     <input list="delegacias" name="delegacia" id="delegacia">
                     <datalist id="delegacias">
-                        <option value="5a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva">
-                        <option value="6a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva">
-                        <option value="Outra">
+                        <option value="5a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva"></option>
+                        <option value="6a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva"></option>
                     </datalist>
                 </div>
                 <div class="conteiner-input">
