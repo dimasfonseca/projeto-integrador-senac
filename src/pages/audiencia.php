@@ -119,7 +119,7 @@
 
                 <div class="conteiner-input">
                     <label for="defensor" class="negrito">Defensor(a) Público(a):</label>
-                    <input class="campo" list="defensores" name="defensor" id="defensor">
+                    <input list="defensores" name="defensor" id="defensor">
                     <datalist id="defensores">
                         <option value="Elza Soares"></option>
                         <option value="João Gilberto"></option>
