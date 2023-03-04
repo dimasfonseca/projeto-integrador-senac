@@ -18,7 +18,6 @@ if (!array_key_exists('reqs', $_SESSION)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <link rel="stylesheet" type="text/css" href="../style/common.css"> -->
     <link rel="stylesheet" type="text/css" href="../style/index.css">
 
     <title>Login</title>
@@ -62,7 +61,7 @@ if (!array_key_exists('reqs', $_SESSION)) {
 
         <a href="./audiencia.php"><button>Entrar</button></a>
 
-        <p class="conteiner-oculto" id="erro-login">
+        <p id="erro-login"> 
             Usuário ou senha inválidos
         </p>
 
