@@ -38,7 +38,7 @@
             <form>
                 <div class="conteiner-input">
                     <label for="delegacia" class="negrito">Delegacia de Polícia:</label>
-                    <input list="delegacias" name="delegacia" id="delegacia">
+                    <input class="input-text" list="delegacias" name="delegacia" id="delegacia">
                     <datalist id="delegacias">
                         <option value="5a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva"></option>
                         <option value="6a Delegacia de Polícia de Repressão aos Delitos de Intolerância Esportiva"></option>
@@ -46,11 +46,11 @@
                 </div>
                 <div class="conteiner-input">
                     <label for="numeroTC" class="negrito">Número do Termo Circunstanciado:</label>
-                    <input type="text" id="numeroTC" name="numeroTC" placeholder="ex.: 900000/2022">
+                    <input class="input-text" type="text" id="numeroTC" name="numeroTC" placeholder="ex.: 900000/2022">
                 </div>
                 <div class="conteiner-input">
                     <label for="capitulacao" class="negrito">Capitulação do Fato:</label>
-                    <input type="text" id="capitulacao" name="capitulacao" placeholder="ex.: Art. 41B do ED">
+                    <input class="input-text" type="text" id="capitulacao" name="capitulacao" placeholder="ex.: Art. 41B do ED">
                 </div>
             </form>
         </section>
@@ -60,22 +60,22 @@
             <form>
                 <div class="conteiner-input">
                     <label for="nomeAF" class="negrito">Nome completo:</label>
-                    <input type="text" id="nomeAF" name="nomeAF">
+                    <input class="input-text" type="text" id="nomeAF" name="nomeAF">
                 </div>
 
                 <div class="conteiner-input">
                     <label for="cpfAF" class="negrito">CPF:</label>
-                    <input type="text" id="cpfAF" name="cpfAF">
+                    <input class="input-text" type="text" id="cpfAF" name="cpfAF">
                 </div>
 
                 <div class="conteiner-input">
                     <label for="emailAF" class="negrito">E-mail:</label>
-                    <input type="email" id="emailAF" name="emailAF">
+                    <input class="input-text" type="email" id="emailAF" name="emailAF">
                 </div>
 
                 <div class="conteiner-input">
                     <label for="telAF" class="negrito">Telefone:</label>
-                    <input type="tel" id="telAF" name="tel">
+                    <input class="input-text" type="tel" id="telAF" name="tel">
                 </div>
             </form>
         </section>
@@ -85,7 +85,7 @@
             <form>
                 <div class="conteiner-input">
                     <label for="estadio" class="negrito">Estádio:</label>
-                    <input list="estadios" name="estadio" id="estadio">
+                    <input class="input-text" list="estadios" name="estadio" id="estadio">
                     <datalist id="estadios">
                         <option value="Allianz Parque"></option>
                         <option value="Cícero Pompeu de Toledo (Morumbi)"></option>
@@ -97,7 +97,7 @@
 
                 <div class="conteiner-input">
                     <label for="juiz" class="negrito">Juiz(a) de Direito:</label>
-                    <input list="juizes" name="juiz" id="juiz">
+                    <input class="input-text" list="juizes" name="juiz" id="juiz">
                     <datalist id="juizes">
                         <option value="Elis Regina"></option>
                         <option value="Gal Costa"></option>
@@ -107,7 +107,7 @@
 
                 <div class="conteiner-input">
                     <label for="promotor" class="negrito">Promotor(a) de Justiça:</label>
-                    <input list="promotores" name="promotor" id="promotor">
+                    <input class="input-text" list="promotores" name="promotor" id="promotor">
                     <datalist id="promotores">
                         <option value="Caetano Veloso"></option>
                         <option value="Chico Buarque"></option>
@@ -118,7 +118,7 @@
 
                 <div class="conteiner-input">
                     <label for="defensor" class="negrito">Defensor(a) Público(a):</label>
-                    <input list="defensores" name="defensor" id="defensor">
+                    <input class="input-text" list="defensores" name="defensor" id="defensor">
                     <datalist id="defensores">
                         <option value="Elza Soares"></option>
                         <option value="João Gilberto"></option>
@@ -129,7 +129,7 @@
 
                 <div class="conteiner-input">
                     <label for="escrevente" class="negrito">Escrevente de Sala:</label>
-                    <input list="escreventes" name="escrevente" id="escrevente">
+                    <input class="input-text" list="escreventes" name="escrevente" id="escrevente">
                     <datalist id="escreventes">
                         <option value="Aristóteles"></option>
                         <option value="Demócrito"></option>
