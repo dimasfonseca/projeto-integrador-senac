@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+/* HEADER */
 
 header {
     display: flex;
@@ -52,7 +52,7 @@ header {
     padding: 10px;
 }
 
-/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+/* MAIN */
 
 main {
     display: flex;
@@ -117,6 +117,10 @@ h3 {
     font-weight: bold;
 }
 
+.input-text {
+    min-width: 350px;
+}
+
 .margem-esquerda-10 {
     margin-left: 10px;
 }
@@ -148,7 +152,7 @@ button {
     margin: 25px;
 }
 
-/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+/* FOOTER */
 
 footer {
     width: 100%;
@@ -162,10 +166,4 @@ footer > p {
     font-size: 0.875em;
     font-weight: 100;
     clear: both;
-}
-
-/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
-
-.borda {
-    border: 2px solid violet;
 }
