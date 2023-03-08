@@ -20,6 +20,7 @@ estádios de futebol do Estado de São Paulo.
 - Lista dos pré-requisitos para rodar o projeto.
 
 ## Instalação
+[Baixar o arquivo de configuração do SQL](https://drive.google.com/file/d/1Igk5WOQOrlnGjlXfe1DKp1Ttxuj9Yxlc/view?usp=share_link)
 1. Passo 1 para instalação
 2. Passo 2 para instalação
 3. ...
