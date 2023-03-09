@@ -1,4 +1,8 @@
+<?php
+include('protect.php')
+?>
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
@@ -23,7 +27,10 @@
                 <p id="uf">Estado de São Paulo</p>
             </div>
         </div>
+        <div>
         <p id="saudacao">Bem-vindo!</p>
+        </div>
+
     </header>
 
     <main>
@@ -234,7 +241,11 @@
 
         <div id="conteiner-botao">
             <button>Gerar Termo</button>
+            <form method="post" action="logout.php">
+		        <button type="submit" name="logout">Sair</button>
+	        </form>
         </div>
+
 
 
     </main>

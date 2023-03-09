@@ -8,6 +8,47 @@ if (!array_key_exists('reqs', $_SESSION)) {
 } else {
     $_SESSION['reqs']++;
 }
+
+include("conexao.php");
+
+if(isset($_POST['email']) || isset($_POST['senha'])) {
+
+    if(strlen($_POST['email']) == 0) {
+        echo "Preencha seu e-mail"; /*josevinicius@tjsp.jus.br*/
+    } else if(strlen($_POST['senha']) == 0) {
+        echo "Preencha sua senha"; /*tjsp12345*/
+    } else {
+
+        $email = $mysqli->real_escape_string($_POST['email']);
+        $senha = $mysqli->real_escape_string($_POST['senha']); 
+
+        $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
+
+        $quantidade = $sql_query->num_rows;
+
+        if($quantidade == 1) { 
+
+            $usuario = $sql_query->fetch_assoc();
+
+            if(!isset($_SESSION)) {
+                session_start();
+            }
+
+            $_SESSION['id'] = $usuario['id'];
+            $_SESSION['nome'] = $usuario['nome'];
+
+            header("Location: audiencia.php");
+            
+
+
+        } else {
+            echo "Falha ao logar! E-mail ou senha incorretos";
+        }
+    }
+
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -50,21 +91,23 @@ if (!array_key_exists('reqs', $_SESSION)) {
 
         <form method="post">
             <div>
-                <label for="usuario">Usuário</label>
-                <input type="email" id="usuario" name="usuario" />
+                <label for="email">Usuário</label>
+                <input type="email" id="email" name="email" />
             </div>
             <div>
                 <label for="senha">Senha</label>
                 <input type="password" id="senha" name="senha" />
             </div>
+        <p>
+            <button type="submit">Entrar</button>
+        </p>
         </form>
 
-        <a href="./audiencia.php"><button>Entrar</button></a>
+<!--         <a href="./audiencia.php"><button>Entrar</button></a>
 
         <p id="erro-login"> 
             Usuário ou senha inválidos
-        </p>
-
+        </p> -->
     </main>
 
     <footer>
