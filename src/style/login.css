@@ -120,6 +120,8 @@ button {
 #erro-login {
     color: #f54336;
     margin: 25px 0px 100px 0px;
+    position:absolute;
+    bottom: 200px;
 }
 
 /* FOOTER */
