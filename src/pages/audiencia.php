@@ -1,5 +1,5 @@
 <?php
-include('protect.php')
+include('protect.php');
 ?>
 <!DOCTYPE html>
 
@@ -151,7 +151,7 @@ include('protect.php')
 
         <section class="conteiner-corpo">
             <h3>Mérito da Audiência</h3>
-            <form>
+            <form action="generate_pdf.php" method="post">
                 <div class="conteiner-linha">
                     <p class="margem-abaixo-5 negrito">É cabível a transação penal?</p>
                     <div class="margem-esquerda-10">
@@ -235,12 +235,11 @@ include('protect.php')
                         <label for="aceita-nao">Não aceita</label>
                     </div>
                 </div>
-
+                <button type="submit" name="generate_pdf">Gerar Termo</button>
             </form>
         </section>
 
         <div id="conteiner-botao">
-            <button>Gerar Termo</button>
             <form method="post" action="logout.php">
 		        <button type="submit" name="logout">Sair</button>
 	        </form>
