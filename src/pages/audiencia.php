@@ -1,4 +1,8 @@
+<?php
+include('protect.php');
+?>
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
@@ -23,7 +27,10 @@
                 <p id="uf">Estado de São Paulo</p>
             </div>
         </div>
+        <div>
         <p id="saudacao">Bem-vindo!</p>
+        </div>
+
     </header>
 
     <main>
@@ -144,7 +151,7 @@
 
         <section class="conteiner-corpo">
             <h3>Mérito da Audiência</h3>
-            <form>
+            <form action="generate_pdf.php" method="post">
                 <div class="conteiner-linha">
                     <p class="margem-abaixo-5 negrito">É cabível a transação penal?</p>
                     <div class="margem-esquerda-10">
@@ -228,13 +235,16 @@
                         <label for="aceita-nao">Não aceita</label>
                     </div>
                 </div>
-
+                <button type="submit" name="generate_pdf">Gerar Termo</button>
             </form>
         </section>
 
         <div id="conteiner-botao">
-            <button>Gerar Termo</button>
+            <form method="post" action="logout.php">
+		        <button type="submit" name="logout">Sair</button>
+	        </form>
         </div>
+
 
 
     </main>
