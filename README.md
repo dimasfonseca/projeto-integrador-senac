@@ -17,24 +17,25 @@ estádios de futebol do Estado de São Paulo.
 - MySQL
 
 ## Pré-requisitos
-- Lista dos pré-requisitos para rodar o projeto.
+- Possuir XAMPP ou similar instalado (Projeto desenvolvido e testado utilizando XAMPP)
+- [Baixar o arquivo de configuração do SQL](https://drive.google.com/file/d/1Igk5WOQOrlnGjlXfe1DKp1Ttxuj9Yxlc/view?usp=share_link)
 
 ## Instalação
-[Baixar o arquivo de configuração do SQL](https://drive.google.com/file/d/1Igk5WOQOrlnGjlXfe1DKp1Ttxuj9Yxlc/view?usp=share_link)
-1. Passo 1 para instalação
-2. Passo 2 para instalação
-3. ...
+
+1. [Acessar o phpMyAdmin](http://localhost/phpmyadmin/)
+2. Criar novo DB chamado 'login' e selecioná-lo
+3. Clicar na aba 'Importar'
+4. Selecionar o arquivo 'login.sql' provido e importa-lo
+5. Abrir o Apache e seguir para este caminho http://localhost/projeto-integrador-senac/src/pages/login.php
+6. Utilizar as credenciais de email: josevinicius@tjsp.jus.br | e senha: tjsp12345
 
 ## Como usar
-Descrição de como usar
+
+Basta preencher os campos que vão aparecer e selecionar as opções adequadas e então clicar em "Gerar Termo", depois pressionar
+o atalho "Ctrl + P" para salvar a nova tela como PDF.
 
 ## Integrantes do grupo
 - Alexandre de Jesus Ferreira de Oliveira
 - Carolina da Costa Trindade
 - Dimas Fonseca Espírito Santo
 - Yan Lucca Lozano Barbosa
-
-
-## Testagem da aplicação
-
-
