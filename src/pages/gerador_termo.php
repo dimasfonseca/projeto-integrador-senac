@@ -7,32 +7,32 @@
   // Determine which page to generate based on the radio options
   switch(true) {
     case ($option1 == "Não"):
-      // Load termo_0.html
-      include '..\termos\termo_0.html';
+      // Load termo_0.php
+      include '..\termos\termo_0.php';
       break;
     case ($option2 == "Afastamento" && $option3 == "Aceita"):
-      // Load termo_1a.html
-      include '..\termos\termo_1a.html';
+      // Load termo_1a.php
+      include '..\termos\termo_1a.php';
       break;
     case ($option2 == "Afastamento" && $option3 == "Não aceita"):
-      // Load termo_1b.html
-      include '..\termos\termo_1b.html';
+      // Load termo_1b.php
+      include '..\termos\termo_1b.php';
       break;
     case ($option2 == "Prestação Pecuniária" && $option3 == "Aceita"):
-      // Load termo_2a.html
-      include '..\termos\termo_2a.html';
+      // Load termo_2a.php
+      include '..\termos\termo_2a.php';
       break;
     case ($option2 == "Prestação Pecuniária" && $option3 == "Não aceita"):
-      // Load termo_2b.html
-      include '..\termos\termo_2b.html';
+      // Load termo_2b.php
+      include '..\termos\termo_2b.php';
       break;
     case ($option2 == "Prestação de Serviços à Comunidade" && $option3 == "Aceita"):
-      // Load termo_3a.html
-      include '..\termos\termo_3a.html';
+      // Load termo_3a.php
+      include '..\termos\termo_3a.php';
       break;
     case ($option2 == "Prestação de Serviços à Comunidade" && $option3 == "Não aceita"):
-      // Load termo_3b.html
-      include '..\termos\termo_3b.html';
+      // Load termo_3b.php
+      include '..\termos\termo_3b.php';
       break;
     default:
       // Error message
