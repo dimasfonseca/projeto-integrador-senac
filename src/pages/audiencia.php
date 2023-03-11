@@ -40,7 +40,7 @@ include('protect.php');
             <h2>Plantões do Juizado do Torcedor</h2>
         </div>
         
-        <form action="termo.php" method="post">
+        <form action="gerador_termo.php" method="post">
             <section class="conteiner-corpo">
                 <h3>Dados da Ocorrência Policial</h3>
                     <div class="conteiner-input">
