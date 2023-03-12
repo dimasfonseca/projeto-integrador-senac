@@ -94,16 +94,27 @@
 
     <section>
         <p>
-            Aos <b><?php echo date("d/m/Y")?></b>, 
-            às <b><?php date_default_timezone_set('America/Sao_Paulo'); echo date("h:i a")?></b>, 
-            nesta Cidade e Comarca da Capital, na sala de audiências do Juizado Itinerante, Estádios de Futebol, 
-            Estádio <b><?php echo $_POST["estadio"]; ?></b>, sob a presidência do(a) MM. Juiz(a) de Direito, 
-            Dr(a). <b><?php echo $_POST["juiz"]; ?></b>, comigo escrevente abaixo assinado. 
-            Apregoadas as partes, compareceram as pessoas acima mencionadas, cada qual apresentando sua manifestação, 
-            conforme supra anotado em resumo. Ao final, pelo(a) MM(a). Juiz(a) de Direito foi dito: 
-            Defiro o requerimento supra do(a) representante do MP. Abra-se-lhe vista para manifestação. 
-            Saem os presentes intimados. Lido e achado conforme, vai por mim assinado. 
-            Autorizo a extração de cópias reprográficas. Nada mais. Eu,___, <b><?php echo $_POST["escrevente"]; ?></b>, 
+            Aos <b>
+                <?php echo date("d/m/Y") ?>
+            </b>,
+            às <b>
+                <?php date_default_timezone_set('America/Sao_Paulo');
+                echo date("h:i a") ?>
+            </b>,
+            nesta Cidade e Comarca da Capital, na sala de audiências do Juizado Itinerante, Estádios de Futebol,
+            Estádio <b>
+                <?php echo $_POST["estadio"]; ?>
+            </b>, sob a presidência do(a) MM. Juiz(a) de Direito,
+            Dr(a). <b>
+                <?php echo $_POST["juiz"]; ?>
+            </b>, comigo escrevente abaixo assinado.
+            Apregoadas as partes, compareceram as pessoas acima mencionadas, cada qual apresentando sua manifestação,
+            conforme supra anotado em resumo. Ao final, pelo(a) MM(a). Juiz(a) de Direito foi dito:
+            Defiro o requerimento supra do(a) representante do MP. Abra-se-lhe vista para manifestação.
+            Saem os presentes intimados. Lido e achado conforme, vai por mim assinado.
+            Autorizo a extração de cópias reprográficas. Nada mais. Eu,___, <b>
+                <?php echo $_POST["escrevente"]; ?>
+            </b>,
             Escrevente Técnico Judiciário, digitei.
         </p>
     </section>
