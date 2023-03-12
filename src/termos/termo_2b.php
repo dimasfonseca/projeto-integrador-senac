@@ -1,6 +1,6 @@
 <!--    TERMO 2B
         Cabe transação penal
-        Afastamento dos Estádios
+        Prestação de Serviços à Comunidade
         Réu NÃO aceita
 -->
 

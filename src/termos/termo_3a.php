@@ -68,7 +68,7 @@
             <b>
                 <?php echo $_POST["promotor"]; ?>
             </b>
-            MM(a). Juiz(a), proponho a aplicação imediata de pena restritiva de direitos, consistente em pagamento de
+            - MM(a). Juiz(a), proponho a aplicação imediata de pena restritiva de direitos, consistente em pagamento de
             prestação pecuniária, que será revertida ao FUNDO MUNICIPAL DA CRIANÇA E DO ADOLESCENTE (FUMCAD), no valor
             de R$ <b>
                 <?php echo $_POST["valor-pp"]; ?>
