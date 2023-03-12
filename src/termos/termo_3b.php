@@ -1,9 +1,3 @@
-<!--    TERMO 3B
-        Cabe transação penal
-        Prestação pecuniária
-        Réu NÃO aceita
--->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -68,15 +62,13 @@
             <b>
                 <?php echo $_POST["promotor"]; ?>
             </b>
-            - MM(a). Juiz(a), proponho a aplicação imediata de pena restritiva de direitos, consistente em pagamento de
-            prestação pecuniária, que será revertida ao FUNDO MUNICIPAL DA CRIANÇA E DO ADOLESCENTE (FUMCAD), no valor
-            de R$ <b>
-                <?php echo $_POST["valor-pp"]; ?>
-            </b>, no prazo de <b>
-                <?php echo $_POST["prazo-pp"]; ?>
-            </b>. O pagamento deverá ser realizado exclusivamente por
-            meio de guia de depósito judicial, a ser emitida e enviada ao(à) autor(a) do fato. As instruções de
-            pagamento deverão seguir junto com a guia.
+            - MM(a). Juiz(a), proponho ao(à) autor(a) do fato a aplicação de pena restritiva de direitos consistente na
+            prestação de serviços à comunidade por <b>
+                <?php echo $_POST["horas-psc"]; ?>
+            </b>horas, sendo que as horas deverão ser
+            prestadas no prazo de <b>
+                <?php echo $_POST["prazo-psc"]; ?>
+            </b>.
         </p>
     </section>
 

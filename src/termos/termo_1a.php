@@ -1,9 +1,3 @@
-<!--    TERMO 1A
-        Cabe transação penal
-        Afastamento dos Estádios
-        Réu Aceita
--->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
