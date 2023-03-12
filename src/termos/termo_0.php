@@ -1,4 +1,6 @@
-<!-- TERMO 0 -->
+<!--    TERMO 0
+        Não cabe transação penal
+-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
