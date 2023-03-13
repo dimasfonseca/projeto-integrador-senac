@@ -101,8 +101,8 @@
             </b>,
             às <b>
                 <?php date_default_timezone_set('America/Sao_Paulo');
-                echo date("h:i a") ?>
-            </b>,
+                echo date("H:i ") ?>
+            </b>horas,
             nesta Cidade e Comarca da Capital, na sala de audiências do Juizado Itinerante, Estádios de Futebol,
             Estádio <b>
                 <?php echo $_POST["estadio"]; ?>
